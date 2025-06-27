@@ -23,13 +23,6 @@ A minimal Flask web application to track tasks. Suitable for CI/CD pipeline demo
 3. **Visit:**
    Open [http://localhost:5000](http://localhost:5000) in your browser.
 
-## Deploy on Render
-1. Push this repo to GitHub.
-2. Create a new Web Service on [Render](https://render.com/).
-3. Set the build and start commands:
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `python app.py`
-4. Set environment to Python 3.7+.
 
 ## Folder Structure
 ```

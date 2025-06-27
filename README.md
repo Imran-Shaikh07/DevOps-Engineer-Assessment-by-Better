@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# DevOps-Engineer-Assessment-by-Better
-=======
 # Task Tracker
+
+[Live Demo on Render](https://devops-engineer-assessment-by-better.onrender.com/)
 
 A minimal Flask web application to track tasks. Suitable for CI/CD pipeline demos and easy deployment on Render.
 
@@ -23,7 +22,6 @@ A minimal Flask web application to track tasks. Suitable for CI/CD pipeline demo
 3. **Visit:**
    Open [http://localhost:5000](http://localhost:5000) in your browser.
 
-
 ## Folder Structure
 ```
 DevOps Assignment/
@@ -37,5 +35,4 @@ DevOps Assignment/
 
 ---
 
-**Note:** Tasks are stored in memory and will reset on app restart. 
->>>>>>> bca6d02 (Flask Appliation)
+**Note:** Tasks are stored in memory and will reset on app restart.

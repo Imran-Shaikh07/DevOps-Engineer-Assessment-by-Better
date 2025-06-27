@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Task Tracker{% endblock %}
+{% block content %}
+<h1>Task Tracker</h1>
+<a href="{{ url_for('add_task') }}" style="float:right;margin-bottom:1rem;">+ Add New Task</a>
+<ul>
+    {% for task in tasks %}
+        <li>
+            <span>{{ task.description }}</span>
+            <a class="delete-link" href="{{ url_for('delete_task', task_id=task.id) }}">Delete</a>
+        </li>
+    {% else %}
+        <li>No tasks yet.</li>
+    {% endfor %}
+</ul>
+{% endblock %} 

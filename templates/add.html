@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Add Task | Task Tracker{% endblock %}
+{% block content %}
+<h1>Add a New Task</h1>
+<form method="post" style="display:flex;align-items:center;gap:1rem;">
+    <input type="text" id="description" name="description" placeholder="Task description" required>
+    <input type="submit" value="Add Task">
+</form>
+<a href="{{ url_for('index') }}" style="display:inline-block;margin-top:1rem;">&larr; Back to Task List</a>
+{% endblock %} 
